@@ -5,6 +5,9 @@ use ProyectoTAU\CommandBus;
 
 class CommandBusTest extends TestCase {
 
+	/**
+	* @link https://github.com/sebastianbergmann/phpunit-documentation/issues/171#issuecomment-67239415
+	*/
 	function test_can_make_CommandBus_class(){
 		try {
 		  $cmdbus = new CommandBus();

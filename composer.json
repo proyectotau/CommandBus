@@ -10,10 +10,18 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+	
+	"require": {},
     "require-dev": {
         "phpunit/phpunit": "^7"
     },
+	
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/proyectotau/command-bus.git"
+        }
+    ],
 	
 	"autoload": {
         "psr-4": {
