@@ -1,0 +1,23 @@
+{
+    "name": "proyectotau/command-bus",
+    "description": "Minimalist implementation of CommandBus pattern for test purpose only",
+	"type": "library",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Proyecto TAU",
+            "email": "ProyectoTAU2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+	
+	"autoload": {
+        "psr-4": {
+            "ProyectoTAU\\": "src/"
+        }
+    }
+}
