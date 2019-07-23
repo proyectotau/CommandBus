@@ -4,6 +4,25 @@ Minimalist implementation of CommandBus pattern for test purpose only
 # According to (it remembers remotelly to)
 https://tactician.thephpleague.com/
 
+# Install
+
+Insert official repository in your `composer.json`
+
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/proyectotau/command-bus.git"
+        }
+    ],
+```
+
+Require it by composer
+
+```sh
+   composer -vvv require proyectotau/command-bus:"1.*-dev@dev"
+```
+
 # Usage
 
 Create a `CommandHandler` class
@@ -29,7 +48,7 @@ And `bind` command to that command handler
 	$cmdbus->bind('MyCommand', $handler);
 ```
 
-Command can be an object with params
+Command can be an object with parameters
 
 ```php
 	$cmdobj = new CommandObject(true, 1, []);
