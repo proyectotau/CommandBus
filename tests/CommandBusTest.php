@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use ProyectoTAU\CommandBus;
+use ProyectoTAU\CommandBus\CommandBus;
 
 class CommandBusTest extends TestCase {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ProyectoTAU;
+namespace ProyectoTAU\CommandBus;
 
 class CommandBus {
 	private $bus = [];

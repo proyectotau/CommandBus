@@ -20,7 +20,7 @@ Insert official repository in your `composer.json`
 Require it by composer
 
 ```sh
-   composer -vvv require proyectotau/command-bus:"1.*-dev@dev"
+   composer -vvv require proyectotau/command-bus:dev-master
 ```
 
 # Usage
